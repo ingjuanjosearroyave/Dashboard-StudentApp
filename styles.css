@@ -63,7 +63,7 @@
   transition: all 0.4s ease;
 }
 .sidebar .nav-links li:hover{
-  background: #3883d8;
+  background: #d84b38;
 }
 .sidebar .nav-links li .iocn-link{
   display: flex;
@@ -78,7 +78,7 @@
   min-width: 78px;
   text-align: center;
   line-height: 50px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -239,6 +239,7 @@
   font-size: 26px;
   font-weight: 600;
 }
+
 @media (max-width: 420px) {
   .sidebar.close .nav-links li .sub-menu{
     display: none;
